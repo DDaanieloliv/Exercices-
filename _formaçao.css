@@ -1,0 +1,46 @@
+body {
+    border: 1px solid;
+    margin: 300px;
+    box-shadow: 2px 2px 1px  rgba(0, 0, 0, .5);
+    background-color: antiquewhite;
+}
+
+body h2 {
+    color: rgb(20, 18, 18);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-left: 10px;
+}
+
+
+table#tabelas {
+    color: rgb(20, 18, 18);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border: 1px solid;
+    border-collapse: collapse;
+    margin-left: 8px;
+    margin-right: 8px;
+    width: 95%;
+    box-shadow: 2px 2px 1px  rgba(0, 0, 0, .5);
+}
+
+table#tabelas th {
+    border: 1px solid;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: black;
+    color: aliceblue;
+}
+
+table#tabelas td {
+    border: 1px solid;
+    padding: 10px;
+}
+
+table#tabelas tr :hover{
+    background-color: bisque;
+}
+
+div#formacaocomplementar {
+    color: rgb(20, 18, 18);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}

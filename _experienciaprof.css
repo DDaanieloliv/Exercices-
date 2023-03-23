@@ -1,0 +1,13 @@
+body {
+    font-size: 90pt;
+    margin: 100px;
+    text-align: center;
+    color: #ffffff;
+    display: block;
+    padding: 100px;
+}
+
+ul.experiencia  :hover{
+    background-color: rgb(75, 75, 75);
+    
+}
