@@ -1,0 +1,3 @@
+# Exercices-
+
+These are some of the activities I completed...
