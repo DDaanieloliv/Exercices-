@@ -19,6 +19,10 @@ if response.status_code == 200:
     headlines = soup.find_all("h3", class_="gs-c-promo-heading__title")
 
     #cria arquivo csv
+    #Os parâmetros que vamos utilizar da função open() são: file, mode. 
+    #File é o path do arquivo, ou seja, o caminho onde ele está ou será criado.
+    # O mode é o modo como o arquivo será aberto, os dois principais modos são 'r' para read(leitura) e 
+    # 'w' para writer(escrita).
     file = open('export_data.csv', 'w', newline='')
     writer = csv.writer(file)
     headers = ['Noticias']
