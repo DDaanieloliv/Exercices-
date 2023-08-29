@@ -22,7 +22,7 @@ if response.status_code == 200:
 
         # Encontre os elementos HTML que contêm os títulos de notícias
         headlines = soup.find_all("a", class_="gs-c-section-link")
-        # otherlines = soupp.find_all("h3", class_="gs-c-promo-heading__title")
+        otherlines = soup.find_all("h3", class_="gs-c-promo-heading__title")
 
         #cria arquivo csv
         #Os parâmetros que vamos utilizar da função open() são: file, mode. 
@@ -31,7 +31,7 @@ if response.status_code == 200:
         # 'w' para writer(escrita).
         file = open('export_data.csv', 'w', newline='')
         writer = csv.writer(file)
-        headers = ['Categorias'] + ['Notice'] 
+        headers = ['Categorias' , 'Notice'] 
         writer.writerow(headers)
 
         # Loop pelos elementos e imprimir os títulos
@@ -58,17 +58,17 @@ if response.status_code == 200:
             # writerr.writerow(headerss)
             
             # Loop pelos elementos e imprimir os títulos
-        # for otherlines in otherlines:
-        #     print(otherlines.text)
-        #     #cada noticia
-        #     noticia = [otherlines.text]
+        for otherlines in otherlines:
+             print(otherlines.text)
+             #cada noticia
+             noticia = [otherlines.text]
 
-        #     #salvar noticia no arquivo
-        #     filee = open('export_data.csv', 'a', newline='', encoding='utf-8')
-        #     writerr = csv.writer(filee)
-        #     writerr.writerow(noticia)
-        #     filee.close()
-    # else:
-    #     print("Falha ao acessar a página:", response.status_code)
+             #salvar noticia no arquivo
+             filee = open('export_data.csv', 'a', newline='', encoding='utf-8')
+             writerr = csv.writer(filee)
+             writerr.writerow(noticia)
+             filee.close()
+        else:
+            print("Falha ao acessar a página:", response.status_code)
 else:  
     print("Falha ao acessar a página:", response.status_code)
