@@ -1,0 +1,19 @@
+{
+    "$schema": "http://json-schema.org/schema",
+    "short_name": "Robson",
+    "name": "Robertson",
+    "start_url": ".",
+    "display": "standalone",
+    "theme_color": "#ffffff",
+    "background_color": "#000000",
+    "description": "Página sobre Robertson",
+    "icons": [
+        {
+            "src": "assets/img/70e25c7cfd1df6f6b7e3b0adbd553131.png",
+            "type": "image/png",
+            "sizes": "256x256"
+        }
+    ]
+}
+
+
