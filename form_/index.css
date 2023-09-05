@@ -1,0 +1,81 @@
+/* Estilos para a página */
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Estilos para o contêiner principal */
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Estilos para os grupos de campos do formulário */
+.form-group {
+    margin-bottom: 20px;
+}
+
+/* Estilos para rótulos dos campos */
+.form-group label {
+    font-weight: bold;
+    display: block;
+}
+
+/* Estilos para campos de entrada de texto e email */
+.form-group input[type="text"],
+.form-group input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Estilos para campos de texto multilinha (textarea) */
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    resize: vertical;
+}
+
+/* Estilos para o campo de seleção de arquivo */
+.form-group input[type="file"] {
+    display: none;
+}
+
+/* Estilos para o rótulo personalizado do campo de seleção de arquivo */
+.file-input-label {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Estilos de hover para o rótulo do campo de seleção de arquivo */
+.file-input-label:hover {
+    background-color: #0056b3;
+}
+
+/* Estilos para o elemento que exibe o nome do arquivo selecionado */
+.file-name {
+    margin-top: 5px;
+}
+
+/* Estilos para o botão de envio do formulário */
+.submit-btn {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Estilos de hover para o botão de envio do formulário */
+.submit-btn:hover {
+    background-color: #0056b3;
+}

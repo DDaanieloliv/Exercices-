@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="index.css">
+
+</head>
+<body>
+    
+
+    <div class="container">
+        <h1>Formulário de Denúncia</h1>
+        <form action="#" method="post" enctype="multipart/form-data">
+            <!-- Grupo de campo para o email -->
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+
+            <!-- Grupo de campo para a descrição da denúncia -->
+            <div class="form-group">
+                <label for="descricao">Descrição da Denúncia:</label>
+                <textarea id="descricao" name="descricao" rows="5" required></textarea>
+            </div>
+
+            <!-- Grupo de campo para a seleção de arquivo -->
+            <div class="form-group">
+                <input type="file" id="foto" name="foto" accept="image/*">
+                <label for="foto" class="file-input-label">Anexar Foto</label>
+                <span class="file-name">(Nenhum arquivo selecionado)</span>
+            </div>
+
+            <!-- Botão de envio do formulário -->
+            <button type="submit" class="submit-btn">Enviar Denúncia</button>
+        </form>
+    </div>
+
+    <!-- Script para atualizar o nome do arquivo selecionado -->
+    <script>
+        const fileInput = document.getElementById('foto');
+        const fileNameSpan = document.querySelector('.file-name');
+
+        fileInput.addEventListener('change', () => {
+            fileNameSpan.textContent = fileInput.files[0] ? fileInput.files[0].name : '(Nenhum arquivo selecionado)';
+        });
+    </script>
+
+</body>
+</html>
