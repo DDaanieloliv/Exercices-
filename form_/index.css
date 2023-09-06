@@ -69,13 +69,20 @@ body {
 .submit-btn {
     background-color: #007bff;
     color: #fff;
-    padding: 10px 15px;
+    padding: 10px 12px;
+    /* padding-right: 500px; */
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    margin-top: 10px;
+    
+}
+
+.text-center {
+    text-align: center;
 }
 
 /* Estilos de hover para o botão de envio do formulário */
 .submit-btn:hover {
     background-color: #0056b3;
-}
+}   
