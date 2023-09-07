@@ -1,0 +1,34 @@
+{
+    "name": "Denuncia",
+    "short_name": "app denuncia",
+    "theme_color": "#2196f3",
+    "background_color": "#2196f3",
+    "display": "browser",
+    "scope": "/",
+    "start_url": "/",
+    "icons": [
+        {
+            "src": "images (1).png",
+            "type": "images/png",
+            "size": "225x225"
+        },
+        
+        {
+            "src": "aaaaaa.png",
+            "type": "images/png",
+            "size": "320x320"
+        },
+
+        {
+            "src": "aaaaaa.png",
+            "type": "images/png",
+            "size": "320x320"
+        },
+
+        {
+            "src": "dddddd.png",
+            "type": "images/png",
+            "size": "512x512"
+        }
+    ] 
+  }
