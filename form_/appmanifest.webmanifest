@@ -43,9 +43,9 @@
         },
 
         {
-            "src": "hhhhhh.png",
+            "src": "mds.png",
             "type": "images/png",
-            "size": "419x419",
+            "size": "629x629",
             "purpose": "any maskable"
         }
     ] 
