@@ -36,9 +36,16 @@
         },
 
         {
-            "src": "hh",
+            "src": "hhhhhh.png",
             "type": "images/png",
-            "size": "41",
+            "size": "419x419",
+            "purpose": "any maskable"
+        },
+
+        {
+            "src": "hhhhhh.png",
+            "type": "images/png",
+            "size": "419x419",
             "purpose": "any maskable"
         }
     ] 
