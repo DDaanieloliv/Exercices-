@@ -20,7 +20,7 @@
         },
 
         {
-            "src": "aaaaaa.png",
+            "src": "afff.png",
             "type": "images/png",
             "size": "320x320"
         },
@@ -29,6 +29,13 @@
             "src": "dddddd.png",
             "type": "images/png",
             "size": "512x512"
+        },
+
+        {
+            "src": "",
+            "type": "images/png",
+            "size": ""
         }
+
     ] 
   }
