@@ -1,8 +1,8 @@
 {
     "name": "Denuncia",
     "short_name": "app denuncia",
-    "theme_color": "green",
-    "background_color": "green",
+    "theme_color": "#008000",
+    "background_color": "#008000",
     "display": "standalone",
     "scope": "/",
     "start_url": "/",
