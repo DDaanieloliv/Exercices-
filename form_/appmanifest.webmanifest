@@ -10,25 +10,29 @@
         {
             "src": "images (1).png",
             "type": "images/png",
-            "size": "225x225"
+            "size": "225x225",
+            "purpose": "any maskable"
         },
         
         {
             "src": "aaaaaa.png",
             "type": "images/png",
-            "size": "320x320"
+            "size": "320x320",
+            "purpose": "any maskable"
         },
 
         {
             "src": "afff.png",
             "type": "images/png",
-            "size": "192x192"
+            "size": "192x192",
+            "purpose": "any maskable"
         },
 
         {
             "src": "dddddd.png",
             "type": "images/png",
-            "size": "512x512"
+            "size": "512x512",
+            "purpose": "any maskable"
         }
     ] 
   }
