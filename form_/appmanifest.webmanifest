@@ -33,6 +33,13 @@
             "type": "images/png",
             "size": "512x512",
             "purpose": "any maskable"
+        },
+
+        {
+            "src": "hh",
+            "type": "images/png",
+            "size": "41",
+            "purpose": "any maskable"
         }
     ] 
   }
