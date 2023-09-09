@@ -9,9 +9,9 @@
     "icons": [
         
         {
-            "src": "",
+            "src": "appstore.png",
             "type": "images/png",
-            "size": "225x225",
+            "size": "1024x1024",
             "purpose": "any maskable"
         },
 
