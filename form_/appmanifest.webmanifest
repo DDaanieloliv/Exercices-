@@ -9,6 +9,13 @@
     "icons": [
         
         {
+            "src": "erer.png",
+            "type": "images/png",
+            "size": "512x512",
+            "purpose": "maskable"
+        },
+
+        {
             "src": "appstore.png",
             "type": "images/png",
             "size": "1024x1024",
