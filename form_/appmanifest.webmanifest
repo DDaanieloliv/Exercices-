@@ -1,60 +1,60 @@
-// {
-//     "name": "Denuncia",
-//     "short_name": "app denuncia",
-//     "theme_color": "#008000",
-//     "background_color": "#008000",
-//     "display": "standalone",
-//     "scope": "/",
-//     "start_url": "/",
-//     "icons": [
+{
+    "name": "Denuncia",
+    "short_name": "app denuncia",
+    "theme_color": "#008000",
+    "background_color": "#008000",
+    "display": "standalone",
+    "scope": "/",
+    "start_url": "/",
+    "icons": [
         
-//         {
-//             "src": "appstore.png",
-//             "type": "images/png",
-//             "size": "1024x1024",
-//             "purpose": "any maskable"
-//         },
+        {
+            "src": "appstore.png",
+            "type": "images/png",
+            "size": "1024x1024",
+            "purpose": "any maskable"
+        },
 
-//         {
-//             "src": "images (1).png",
-//             "type": "images/png",
-//             "size": "225x225",
-//             "purpose": "any maskable"
-//         },
+        {
+            "src": "images (1).png",
+            "type": "images/png",
+            "size": "225x225",
+            "purpose": "any maskable"
+        },
         
-//         {
-//             "src": "aaaaaa.png",
-//             "type": "images/png",
-//             "size": "320x320",
-//             "purpose": "any maskable"
-//         },
+        {
+            "src": "aaaaaa.png",
+            "type": "images/png",
+            "size": "320x320",
+            "purpose": "any maskable"
+        },
 
-//         {
-//             "src": "afff.png",
-//             "type": "images/png",
-//             "size": "192x192",
-//             "purpose": "any maskable"
-//         },
+        {
+            "src": "afff.png",
+            "type": "images/png",
+            "size": "192x192",
+            "purpose": "any maskable"
+        },
 
-//         {
-//             "src": "dddddd.png",
-//             "type": "images/png",
-//             "size": "512x512",
-//             "purpose": "any maskable"
-//         },
+        {
+            "src": "dddddd.png",
+            "type": "images/png",
+            "size": "512x512",
+            "purpose": "any maskable"
+        },
 
-//         {
-//             "src": "hhhhhh.png",
-//             "type": "images/png",
-//             "size": "419x419",
-//             "purpose": "any maskable"
-//         },
+        {
+            "src": "hhhhhh.png",
+            "type": "images/png",
+            "size": "419x419",
+            "purpose": "any maskable"
+        },
 
-//         {
-//             "src": "mds.png",
-//             "type": "images/png",
-//             "size": "629x629",
-//             "purpose": "any maskable"
-//         }
-//     ] 
-//   }
+        {
+            "src": "mds.png",
+            "type": "images/png",
+            "size": "629x629",
+            "purpose": "any maskable"
+        }
+    ] 
+  }
