@@ -7,6 +7,14 @@
     "scope": "/",
     "start_url": "/",
     "icons": [
+        
+        {
+            "src": "",
+            "type": "images/png",
+            "size": "225x225",
+            "purpose": "any maskable"
+        },
+
         {
             "src": "images (1).png",
             "type": "images/png",
