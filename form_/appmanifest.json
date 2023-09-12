@@ -9,63 +9,63 @@
     "icons": [
         
         {
-            "src": "afe.png",
+            "src": "img/afe.png",
             "type": "images/png",
             "size": "964x680",
             "purpose": "maskable"
         },
 
         {
-            "src": "erer.png",
+            "src": "img/erer.png",
             "type": "images/png",
             "size": "512x512",
             "purpose": "maskable"
         },
 
         {
-            "src": "appstore.png",
+            "src": "img/appstore.png",
             "type": "images/png",
             "size": "1024x1024",
             "purpose": "maskable"
         },
 
         {
-            "src": "images (1).png",
+            "src": "img/images (1).png",
             "type": "images/png",
             "size": "225x225",
             "purpose": "maskable"
         },
         
         {
-            "src": "aaaaaa.png",
+            "src": "img/aaaaaa.png",
             "type": "images/png",
             "size": "320x320",
             "purpose": "maskable"
         },
 
         {
-            "src": "afff.png",
+            "src": "img/afff.png",
             "type": "images/png",
             "size": "192x192",
             "purpose": "any"
         },
 
         {
-            "src": "dddddd.png",
+            "src": "img/dddddd.png",
             "type": "images/png",
             "size": "512x512",
             "purpose": "maskable"
         },
 
         {
-            "src": "hhhhhh.png",
+            "src": "img/hhhhhh.png",
             "type": "images/png",
             "size": "419x419",
             "purpose": "any "
         },
 
         {
-            "src": "mds.png",
+            "src": "img/mds.png",
             "type": "images/png",
             "size": "629x629",
             "purpose": "any"
@@ -74,7 +74,7 @@
 
     "screenshots" : [
         {
-          "src": "eee.jpg",
+          "src": "img/eee.jpg",
           "sizes": "1280x720",
           "type": "image/jpg",
           "platform": "wide"
