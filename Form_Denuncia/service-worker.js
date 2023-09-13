@@ -117,7 +117,7 @@ self.addEventListener('install', event => {
         './AppIcons/Assets.xcassets/AppIcon.appiconset/256.png',
         './AppIcons/Assets.xcassets/AppIcon.appiconset/512.png',
 
-        './img/eee.jpg'
+        './AppIcons/Assets.xcassets/AppIcon.appiconset/1024.png'
 
         
 
