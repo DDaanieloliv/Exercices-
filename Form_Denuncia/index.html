@@ -12,6 +12,20 @@
     <link rel="stylesheet" href="index.css">
     <!-- <link rel="" href="pwabuilder-sw.js"> -->
     
+    <link href="assets/img/ios/ipad.png" sizes="3200x4267" rel="apple-touch-startup-image" />
+    <link href="assets/img/ios/ipadpro.png" sizes="3475x4633" rel="apple-touch-startup-image" />
+    <link href="assets/img/ios/ipadpro2.png" sizes="4267x5692" rel="apple-touch-startup-image" />
+    <link href="assets/img/ios/Iphone6Plus.png" sizes="2588x4600" rel="apple-touch-startup-image" />
+    <link href="assets/img/ios/Iphone7.png" sizes="1563x2779" rel="apple-touch-startup-image" />
+    <link href="assets/img/ios/IphoneSE-05.png" sizes="1333x2367" rel="apple-touch-startup-image" />
+    <link href="assets/img/ios/IphoneX-05.png" sizes="2344x5075" rel="apple-touch-startup-image" />
+
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="msapplication-TileColor" content="#008000">
+    <meta name="theme-color" content="#008000" />
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="Denúncia">
     <link rel="icon" type="image/png" href="AppIcons/Assets.xcassets/AppIcon.appiconset/144.png">
     <link rel="shortcut icon" sizes="128x128" href="AppIcons/Assets.xcassets/AppIcon.appiconset/128.png">
     <meta name="msapplication-TileImage" content="AppIcons/Assets.xcassets/AppIcon.appiconset/144.png">
@@ -23,8 +37,7 @@
 </head>
 <body>
     
- <script>navigator.serviceWorker.register("service-worker.js")</script> 
-
+ 
     <div class="container">
         <h1>Formulário de Denúncia</h1>
         <form action="#" method="post" enctype="multipart/form-data">
@@ -83,7 +96,24 @@
         });
     </script>
 
+<script>
+    let newWorker;
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('/service-worker.js').then(reg => {
+        reg.addEventListener('updatefound', () => {
+          newWorker = reg.installing;
+        });
+      });
+      let refreshing;
+      navigator.serviceWorker.addEventListener('controllerchange', function () {
+        if (refreshing) return;
+        window.location.reload();
+        refreshing = true;
+      });
+    }
+  </script>
     <!-- <script src="pwabuilder-sw.js"></script> -->
+    <!-- <script>navigator.serviceWorker.register("service-worker.js")</script>  -->
 
 </body>
 </html>
