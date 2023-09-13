@@ -62,7 +62,7 @@
        
     ] ,
 
-    "screenshots" : [
+    "Splash Screen" : [
         {
           "src": "AppIcons/Assets.xcassets/AppIcon.appiconset/1024.png",
           "sizes": "1024x1024",
