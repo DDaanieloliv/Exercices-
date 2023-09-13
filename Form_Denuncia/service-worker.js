@@ -105,31 +105,23 @@ self.addEventListener('install', event => {
       .then(cache => cache.addAll([
 
         './index.html',
+        
+        './index,css',
+        
+        './AppIcons/Assets.xcassets/AppIcon.appiconset/128.png',
+        './AppIcons/Assets.xcassets/AppIcon.appiconset/144.png',
+        './AppIcons/Assets.xcassets/AppIcon.appiconset/152.png',
+        './AppIcons/Assets.xcassets/AppIcon.appiconset/167.png',
+        './AppIcons/Assets.xcassets/AppIcon.appiconset/180.png',
+        './AppIcons/Assets.xcassets/AppIcon.appiconset/196.png',
+        './AppIcons/Assets.xcassets/AppIcon.appiconset/256.png',
+        './AppIcons/Assets.xcassets/AppIcon.appiconset/512.png',
 
-        './assets/css/bootstrap.min.css',
+        './img/eee.jpg'
 
-        './assets/js/bootstrap.min.js',
+        
 
-        './assets/js/jquery.min.js',
-
-        './assets/js/popper.min.js',
-
-        './assets/img/background.png',
-        './assets/img/favicon.png',
-        './assets/img/logo.png',
-        './assets/img/icon_128.png',
-        './assets/img/icon_144.png',
-        './assets/img/icon_152.png',
-        './assets/img/icon_167.png',
-        './assets/img/icon_180.png',
-        './assets/img/icon_192.png',
-        './assets/img/icon_256.png',
-        './assets/img/icon_512.png',
-        './assets/img/formulas.JPG',
-
-        './assets/img/batman.jpeg',
-        './assets/img/chefao.jpeg',
-        './assets/img/leao.jpeg',
+        
       ]))
   );
 });
